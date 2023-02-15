@@ -1,0 +1,10 @@
+.contact {
+
+    background: var(--section-bg-color);
+  }
+  .section-title-wrap {
+    background: var(--secondary-color);
+    border-radius: var(--border-radius-small);
+    padding: 10px 30px;
+  }
+  

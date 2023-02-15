@@ -1,0 +1,5 @@
+.site-footer-title {
+    font-size: var(--menu-font-size);
+    color: var(--dark-color);
+    text-transform: uppercase;
+  }

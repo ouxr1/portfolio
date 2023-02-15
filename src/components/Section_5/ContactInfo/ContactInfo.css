@@ -1,0 +1,16 @@
+
+  
+  .contact-info {
+    background: var(--white-color);
+    border-top-right-radius: var(--border-radius-small);
+    border-bottom-right-radius: var(--border-radius-small);
+    padding: 60px 30px 30px 30px;
+    height: 100%;
+  }
+  
+  .contact-info-border-start {
+    border-right: 1px solid var(--border-color);
+    border-radius: var(--border-radius-small) 0 0 var(--border-radius-small);
+  }
+
+  

@@ -1,0 +1,12 @@
+.contact-info {
+    background: var(--white-color);
+    border-top-right-radius: var(--border-radius-small);
+    border-bottom-right-radius: var(--border-radius-small);
+    padding: 60px 30px 30px 30px;
+    height: 100%;
+  }
+  .site-footer-title {
+    font-size: var(--menu-font-size);
+    color: var(--dark-color);
+    text-transform: uppercase;
+  }
