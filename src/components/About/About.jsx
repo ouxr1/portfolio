@@ -1,6 +1,9 @@
 import './About.css'
-import photo from "../../assets/couple-working-from-home-together-sofa.jpg"
+import photo from "../../assets/aboutme.jpg"
 import photo2 from "../../assets/happy-bearded-young-man.jpg"
+
+
+
 function About() {
   return (
     <>
@@ -23,9 +26,8 @@ function About() {
 
                                 <h3 className="pt-2 mb-3">a little bit about me</h3>
 
-                                <p>This one-page HTML portfolio is provided by <a href="https://templatemo.com" >TemplateMo</a>. This layout is based on Bootstrap v5.1.3 CSS and JS libraries. Image credits go to <a href="https://unsplash.com" >Unsplash</a> and <a href="https://freepik.com" >FreePik</a> for images used in this page.</p>
-
-                                <p>You are allowed to use this template for your websites. You are not allowed to redistribute the template ZIP file on any other website. Please <a href="https://templatemo.com/contact" >contact us</a> for more info.</p>
+                                <p>This is my portfolio I am a student, specialized technician, in the process of obtaining a diploma in full stack development. I am currently looking for an internship in a company or public structures to invest my knowledge in the field of full stack development.
+                                I master many languages and skills in web development, I am versatile in IT and I have mastered English and French</p>
                             </div>
                         </div>
 
