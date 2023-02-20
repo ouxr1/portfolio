@@ -1,76 +1,76 @@
+import { Col, Container, Row } from 'react-bootstrap'
 import './Featured.css'
 
 function Featured() {
   return (
-    <>
-        <section class="featured section-padding">
-                <div class="container">
-                    <div class="row">
+    
+        <section className="featured section-padding">
+                <Container>
+                    <Row>
 
-                        <div class="col-lg-6 col-12">
-                            <div class="profile-thumb">
-                                <div class="profile-title">
-                                    <h4 class="mb-0">Information</h4>
+                        <Col xs={12} lg="6">
+                            <div className="profile-thumb">
+                                <div className="profile-title">
+                                    <h4 className="mb-0">Information</h4>
                                 </div>
 
-                                <div class="profile-body">
+                                <div className="profile-body">
                                     <p>
-                                        <span class="profile-small-title">Name</span> 
+                                        <span className="profile-small-title">Name</span> 
                                         <span>Oussama Benstitou</span>
                                     </p>
 
                                     <p>
-                                        <span class="profile-small-title">Birthday</span> 
+                                        <span className="profile-small-title">Birthday</span> 
                                         <span>oct 12, 2001</span>
                                     </p>
 
                                     <p>
-                                        <span class="profile-small-title">Phone</span> 
+                                        <span className="profile-small-title">Phone</span> 
                                          <span><a href="tel: +212708159822">+212708159822</a></span>
                                     </p>
 
                                     <p>
-                                        <span class="profile-small-title">Email</span> 
+                                        <span className="profile-small-title">Email</span> 
                                         <span><a href="oussamaabd57@gmail.com">oussamaabd57@gmail.com</a></span>
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </Col>
 
-                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                            <div class="about-thumb">
-                                <div class="row">
-                                    <div class="col-lg-6 col-6 featured-border-bottom py-2">
-                                        <strong class="featured-numbers">0</strong>
+                        <Col lg="6" xs={12} className=" mt-5 mt-lg-0">
+                            <div className="about-thumb">
+                                <Row>
+                                    <Col lg="6" xs={6} className="col-lg-6 col-6 featured-border-bottom py-2">
+                                        <strong className="featured-numbers">0</strong>
+                                        <p className="featured-text"></p>
+                                    </Col>
 
-                                        <p class="featured-text"></p>
-                                    </div>
+                                    <Col lg="6" xs={6} className="featured-border-start featured-border-bottom ps-5 py-2">
+                                        <strong className="featured-numbers">0</strong>
 
-                                    <div class="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2">
-                                        <strong class="featured-numbers">0</strong>
+                                        <p className="featured-text">Happy Customers</p>
+                                    </Col>
 
-                                        <p class="featured-text">Happy Customers</p>
-                                    </div>
+                                    <Col lg="6" xs={6} className=" pt-4">
+                                        <strong className="featured-numbers">4</strong>
 
-                                    <div class="col-lg-6 col-6 pt-4">
-                                        <strong class="featured-numbers">4</strong>
+                                        <p className="featured-text">Project Finished</p>
+                                    </Col>
 
-                                        <p class="featured-text">Project Finished</p>
-                                    </div>
+                                <Col lg="6" xs={6} className=" featured-border-start ps-5 pt-4">
+                                    <strong className="featured-numbers">0</strong>
 
-                                    <div class="col-lg-6 col-6 featured-border-start ps-5 pt-4">
-                                        <strong class="featured-numbers">0</strong>
-
-                                        <p class="featured-text">Digital Awards</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                                <p className="featured-text">Digital Awards</p>
+                            </Col>
+                        </Row>
                     </div>
-                </div>
-            </section>
-    </>
+                </Col>
+
+            </Row>
+        </Container>
+    </section>
+    
   )
 }
 

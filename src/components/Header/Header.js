@@ -1,18 +1,19 @@
 import React from 'react'
 import "./Header.css"
 import Navitem from '../Navbar/Navitem'
+import { Container } from 'react-bootstrap'
 
 export default function Header() {
   return (
     
     <nav className="navbar navbar-expand-lg portfolio-navbar">
-    <div className="container">
+    <Container>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
 
-        <a href="index.html" className="navbar-brand mx-auto mx-lg-0">WIPI</a>
+        <a href="index.html" className="navbar-brand mx-auto mx-lg-0">wipi</a>
 
         <div className="d-flex align-items-center d-lg-none">
             <i className="navbar-icon bi-telephone-plus me-3"></i>
@@ -55,7 +56,7 @@ export default function Header() {
             </div>
         </div>
 
-    </div>
+    </Container>
 </nav>
   )
 }

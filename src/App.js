@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 
-import { Header,Container,Hero,About,Featured,Clients,Services,Projects,SectionContact} from './components/index'
+import { Header,Container,Hero,About,Featured,Clients,Services,Projects,SectionContact,Footer} from './components/index'
 
 export default function App() {
   return (
@@ -15,6 +15,7 @@ export default function App() {
           <Services/>
           <Projects/>
           <SectionContact/>
+          <Footer/>
         </Container>
         
     </>

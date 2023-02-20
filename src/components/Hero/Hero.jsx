@@ -1,6 +1,7 @@
 import "./Hero.css"
 import happy from "../../assets/hero1.jpg"
 import happy2 from "../../assets/happy-bearded-young-man.jpg"
+import { Col, Container, Row } from "react-bootstrap"
 function Hero() {
   return (
 //     <div className='hero-main'>
@@ -18,10 +19,10 @@ function Hero() {
 //     </div>
 //   </div>
 <section className="hero d-flex justify-content-center align-items-center" id="section_1">
-                <div className="container">
-                    <div className="row">
+                <Container >
+                    <Row >
 
-                        <div className="col-lg-7 col-12">
+                        <Col lg="7" xs={12}>
                             <div className="hero-text">
                                 <div className="hero-title-wrap d-flex align-items-center mb-4">
                                     <img src={happy2} class="avatar-image avatar-image-large img-fluid" alt=""/>
@@ -32,15 +33,15 @@ function Hero() {
                                 <h2 className="mb-4">full stack web developer</h2>
                                 <p className="mb-4"><a className="custom-btn btn custom-link" href="#section_2">Let's begin</a></p>
                             </div>
-                        </div><br />
+                        </Col><br />
                         
-                        <div className="col-lg-5 col-12 position-relative">
+                        <Col lg="5" xs={12} className="position-relative">
                             <div className="hero-image-wrap"></div>
                             <img src={happy} class="hero-image img-fluid" alt=""/>
-                        </div>
+                        </Col>
 
-                    </div>
-                </div>
+                    </Row>
+                </Container>
 </section>
   )
 }
